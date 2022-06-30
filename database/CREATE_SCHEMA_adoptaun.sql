@@ -7,7 +7,7 @@ CREATE TABLE adoptaun.animal_shelters (
   password VARCHAR(100) NOT NULL,
   name VARCHAR(50) NOT NULL,
   address TEXT(100) NOT NULL,
-  phone VARCHAR(50) NOT NULL,
+  phone_number VARCHAR(50) NOT NULL,
   description TEXT NOT NULL,
   role ENUM("admin", "normal") DEFAULT "normal" NOT NULL,
   recover_code VARCHAR(100),
