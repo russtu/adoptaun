@@ -1,0 +1,29 @@
+{
+  "name": "adoptaun-api",
+  "version": "1.0.0",
+  "description": "### AnimalShelter",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russtu/adoptaun-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russtu/adoptaun-api/issues"
+  },
+  "homepage": "https://github.com/russtu/adoptaun-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
