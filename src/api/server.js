@@ -12,6 +12,7 @@ const { PORT, BASE_URL } = process.env
 
 //Routes
 
+app.use('/adoptaun' , router)
 
 
 
