@@ -2,7 +2,7 @@
   "name": "adoptaun-api",
   "version": "1.0.0",
   "description": "### AnimalShelter",
-  "main": "server.js",
+  "main": "./src/api/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/russtu/adoptaun-api#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "chokidar": "^3.5.3",
     "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mysql2": "^2.3.3",

@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS adoptaun;
 CREATE SCHEMA `adoptaun`;
 USE adoptaun;
-CREATE TABLE adoptaun.animal_shelters (
+CREATE TABLE adoptaun.animals_shelters (
   id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
   email VARCHAR(100) UNIQUE NOT NULL,
   password VARCHAR(100) NOT NULL,
